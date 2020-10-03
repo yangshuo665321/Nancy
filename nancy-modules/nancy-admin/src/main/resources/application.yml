@@ -4,3 +4,10 @@ server:
 spring:
   application:
     name: nancy-admin
+  profiles:
+    active: dev
+
+# mybatis配置
+mybatis:
+  mapper-locations: classpath:mapper/admin/*Mapper.xml
+  type-aliases-package: com.nancy

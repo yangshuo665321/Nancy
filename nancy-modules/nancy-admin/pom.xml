@@ -23,6 +23,24 @@
             <artifactId>nancy-common-core</artifactId>
         </dependency>
 
+        <!-- Mybatis 依赖配置 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- Mysql Connector -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!-- nancy-api-admin -->
+        <dependency>
+            <groupId>com.nancy</groupId>
+            <artifactId>nancy-api-admin</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>
